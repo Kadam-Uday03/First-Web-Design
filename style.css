@@ -1,0 +1,333 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#logo .logo{
+    display: inline-block;
+    border: 2px;
+    padding-bottom:2px;
+    padding-top:2.5px;  
+}
+.logo{
+    color:orange;
+}
+.logo:hover{
+    display:inline-block;
+    color:brown;   
+}   
+a{
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+}
+.navul .li{
+    display: inline-block;
+    margin-right: 30px;
+    border: 2px;
+    padding: 15px 2px 15px 2px;
+}
+.navul .li:hover{
+    display: inline-block;
+    background-color: rgb(198, 194, 194);
+}
+#navbar{
+    height:50px;
+}
+#logo{
+    display:inline-block;
+    padding-left: 150px;
+    font-size: 22px; 
+}
+#navbar1{
+    display:inline-block;
+    padding-left: 550px; 
+    font-size: 17px;
+}
+#dropdown{
+    display:none;
+}
+.dropdown .lidrop{
+    background-color:white;
+    list-style-type: none;
+    display:block;
+}
+.dropdown .lidrop:hover{
+    background-color: rgb(198, 194, 194);
+}
+.navul .li:hover #dropdown{
+    display:block ;
+    position:absolute;
+    color: black;
+    width:80px; 
+    margin-top:15px;
+    margin-left:-50px;
+}
+#bgimg{
+    font-size: 35px;
+    color:aliceblue;
+    background-image:url("./images/light_bulb.jpg");
+    padding-left:200px;
+    padding-top:50px;
+    padding-bottom:-20px;
+    background-size:cover;
+    height:250px;
+    line-height: 1.4;
+}
+.button1{
+    display:inline-block;
+    background-color:orange;
+    color:white;
+    text-align:center;
+    font-size:15px;
+    padding:6px 12px 6px 12px;
+    border-radius:5px;
+    vertical-align: middle;
+}
+.button1:hover{
+    background-color:rgb(207, 144, 27);
+}
+#container{
+    text-align:center;
+    font-size: 25px;
+    padding: 50px;
+    color:grey;
+    line-height: 1.4;
+}
+.p1{
+    padding-left:107px;
+    padding-right: 107px;
+}
+.box1{
+    border:3px solid transparent;
+    margin-bottom: 2px;
+    width: 506px;
+    height: 200px;
+    background-image: url("./images/mung_beans.jpg");
+    background-size: cover;
+    display: inline-block;
+}
+.box2{
+    border:3px solid black;
+    margin-top: -204px;
+    width: 496px;
+    height:200px;
+    background-image:url("./images/coffee_beans_1.jpg");
+    background-size: cover;
+    display: inline-block;
+}
+.box3{
+    border:3px solid transparent;
+    display: inline-block;
+    width: 493px;
+    height:200px;
+    margin-top: -202px;
+    background-image:url("./images/grapes.jpg");
+    background-size: cover;
+}
+.box1:hover{
+    
+    background-image:url("./images/mung_beans.jpg");
+    background-repeat:no-repeat;
+    background-size:500px;
+    background-position:50% 20%;
+    border:3px solid black;
+}
+.box2:hover{
+    background-image:url("./images/coffee_beans_1.jpg");
+    background-repeat:no-repeat;
+    background-size:600px;
+    background-position:50% 10%;
+    border:3px solid black;
+}
+.box3:hover{
+    background-image:url("./images/grapes.jpg");
+    background-repeat:no-repeat;
+    background-size:600px;
+    background-position:10% 10%;
+    border:3px solid black;
+}
+.contain{
+    color:aliceblue;
+    font-size:50px;
+    height:200px;
+    line-height:192px;
+    text-align:center;
+}
+.container1{
+    position: relative;
+    border:1px solid rgb(99, 97, 97);
+    width:270px;
+    border-radius: 5px;
+    height:400px;
+    margin-left:200px;
+    margin-top:20px;
+}
+.h1{
+    color:orange;
+    text-align:center;
+    margin-top:21px;
+    font-size:35px;
+}
+h3{
+    color:rgb(255, 106, 0);
+    font-size: 21px;
+}
+.container2{
+    border:1px solid rgb(99, 97, 97);
+    width:270px;
+    border-radius: 5px;
+    height:400px;
+    margin-left:497px;
+    margin-top:-401px;
+}
+.container3{
+    border:1px solid rgb(99, 97, 97);
+    border-radius: 5px;
+    width:270px;
+    height:400px;
+    margin-left:791px;
+    margin-top:-401px;
+}
+.container4{
+    border:1px solid rgb(99, 97, 97);
+    border-radius: 5px;
+    width:270px;
+    height:400px;
+    margin-left:1087px;
+    margin-top:-401px;
+}
+img{
+    padding-left:11px;
+    padding-top:3px;
+    width:250px;
+}
+.contain1{
+    padding-left:15px;
+    padding-top:20px;
+}
+.number{
+    display:inline-block;
+    position: relative;
+    margin-top:19px;
+    height:34px;
+    width:133px;
+    border-radius: 5px;
+}
+.pg{
+
+    font-size:15px;
+    margin-top:5px;
+    margin-bottom:7px;
+}
+.button2{
+    display:inline-block;
+    position: absolute;
+    background-color: orange;
+    border: 1px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding-top: 9px ;
+    padding-bottom: 2px;
+    padding-right:9px;
+    height: 28px;
+    width: 96px;
+    margin-left:-5px;
+    margin-top: 17px;
+    color:white;
+}
+.button2:hover{
+    background-color:darkorange;
+}
+input text:hover{
+    display:none;
+}
+#div1{
+    text-align: center;
+    margin-top: 50px;
+    font-size:20px;
+}
+.p2{
+    padding-left: 238px;
+    padding-right: 118px;
+    color:grey;
+}
+.serviceimg{
+    border-radius:50%; 
+    margin-left:470px;
+    margin-top:20px;
+    width:550px;
+}
+#div2{
+    text-align: center;
+    margin-top: 50px;
+    font-size:21px;
+}
+.mapimg{
+    width:99%;
+    height:300px;
+}
+.p3{
+    text-align:center; 
+    font-size:21px; 
+    color:grey;
+}
+#div4{
+    font-size:21px;
+    text-align:center;
+    line-height:1.4;
+}
+#div5{
+    display: flex;
+    background-color:rgb(229, 223, 223);
+    font-size:16px;
+    line-height:23.1px;
+    padding-left: 200px;
+    padding-top:44px;
+    padding-bottom:44px;
+}
+.ul1 .li1{
+    list-style-type: none;
+}
+.ul1 .li1:hover{
+    text-decoration:underline;
+}
+.account{
+    padding-left:250px;
+}
+.news{
+    padding-left:300px;
+}
+.input{
+    display: inline-block;
+    height:36px; 
+    width:240px;
+    padding-left:20px ;
+    font-size:15px;
+}
+.button3{
+    display: inline-block;
+    border: 2px;
+    height:20px;
+    border-top-right-radius:6px;
+    border-bottom-right-radius:6px;
+    padding: 9px 11px 11px;
+    background-color:orange;
+    margin-left: -6px;
+    color:aliceblue;
+}
+.button3:hover{
+    background-color: darkorange;
+}
+#div6{
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.ul2 .li2{
+    display: inline-block;    
+}
+.ul2 .li2:hover{
+    text-decoration: underline;
+}
